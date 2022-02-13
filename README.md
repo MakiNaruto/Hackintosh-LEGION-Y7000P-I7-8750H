@@ -54,8 +54,15 @@
 ## 修复记录
 - 键盘失灵修复：
 
-	由于keys中VoodooPS2Controller 和 VoodooI2C其中一个无法使内置键盘功能生效， 而同时加载这两项又会引发冲突，导致无法开机使用。按照如下配置即可
-  ![image](image/voodoo.png)
+	由于keys中VoodooPS2Controller 和 VoodooI2C其中一个无法使内置键盘功能生效， 而同时加载这两项又会引发冲突，导致无法开机使用。
+  	解决方法：使用OpenCore configurator，编辑kernel内核设置即可，按照如下配置即可。
+	![image](image/voodoo.png)
+  	即配置表中去除如下三个选项即可。
+  ```
+  VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext
+  VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext
+  VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext
+  ```
 - 小键盘修复：
 	ACPI增加文件 SSDT-NumLock.aml
 
