@@ -1,8 +1,9 @@
 # Hackintosh-LEGION-Y7000P-I7-8750H  
-> 联想拯救者 Y7000P I7-8750H 准完美级 EFI
+> 联想拯救者 Y7000P I7-8750H  准完美级 EFI	 
+> 镜像系统版本为 macOS Monterey 12.1 21C52
 
-在 [gclm](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H) 提供的EFI上针对自己的机型做了修改，该OC引导无法使本机型内置键盘生效，经修复已正常使用。 
-
+在 [gclm](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H) 
+提供的EFI上针对自己的机型做了修改，该OC引导在 macOS 12.1中，无法使本机型内置键盘生效，经自己修复已正常使用。 
 
 ## 电脑配置
 
@@ -69,6 +70,11 @@
 
 ## 致谢
 
-感谢 [gclm](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H) 提供的绝大部分核心驱动1  
+感谢 [国光](https://apple.sqlsec.com/) 提供的详细教程	 
+感谢 [黑果小兵](https://blog.daliansky.net/) 提供的镜像文件及安装工具	 
+感谢 [gclm](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H) 提供的绝大部分核心驱动 	
 感谢 [xiaoM](https://github.com/xiaoMGitHub/LEGION_Y7000Series_Hackintosh/releases) 提供的键盘修复方案
+
+
+
 
