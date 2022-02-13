@@ -9,14 +9,14 @@
 ```
 电脑型号			联想 Lenovo 拯救者 Y7000P-1060 笔记本电脑
 处理器			英特尔 Core i7-8750H @ 2.20GHz 六核
-主板				联想 LNVNB161216 ( HM370 芯片组 )
-显卡				英特尔 UHD Graphics 630 \ Nvidia GeForce GTX 1060 ( 6 GB / 联想 )
-内存				8 GB ( 三星 DDR4 2666MHz )
+主板			联想 LNVNB161216 ( HM370 芯片组 )
+显卡			英特尔 UHD Graphics 630 \ Nvidia GeForce GTX 1060 ( 6 GB / 联想 )
+内存			8 GB ( 三星 DDR4 2666MHz )
 主硬盘			三星 MZVLB512HAJQ-000L2 ( 512 GB / 固态硬盘 )
-声卡				瑞昱  @ 英特尔 High Definition Audio 控制器
+声卡			瑞昱  @ 英特尔 High Definition Audio 控制器
 无线网卡			英特尔 Wireless-AC 9560
-网卡				瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller
-声卡				瑞昱  @ 英特尔 High Definition Audio 控制器
+网卡			瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller
+声卡			瑞昱  @ 英特尔 High Definition Audio 控制器
 笔记本键盘		PS/2 标准键盘
 ```
 
