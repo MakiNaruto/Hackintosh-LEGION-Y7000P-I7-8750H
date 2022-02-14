@@ -58,7 +58,10 @@
 - 键盘失灵修复：
 
 	由于keys中VoodooPS2Controller 和 VoodooI2C其中一个无法使内置键盘功能生效， 而同时加载这两项又会引发冲突，导致无法开机使用。
-  	解决方法：使用OpenCore configurator，编辑kernel内核设置即可，按照如下配置即可。
+  	
+	解决方法：使用OpenCore configurator，编辑kernel内核设置即可，按照如下配置即可。
+  	
+	注意： 配置的加载顺序不对也会导致出现问题，可参考如题的加载顺序
 	![image](image/voodoo.png)
   	即配置表中去除如下三个选项即可。
   ```
