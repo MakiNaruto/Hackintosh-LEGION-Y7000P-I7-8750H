@@ -6,7 +6,7 @@
 在 [gclm](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H) 
 提供的EFI上针对自己的机型做了修改，该OC引导无法使本机型内置键盘生效，经修复已正常使用。 
 
-## 电脑配置
+## 电脑配置 
 
 ```
 电脑型号		联想 Lenovo 拯救者 Y7000P-1060 笔记本电脑
