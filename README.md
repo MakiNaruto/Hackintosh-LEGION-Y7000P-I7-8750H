@@ -24,7 +24,7 @@
 
 ## 正常工作的功能
 - UEFI通过 Clover/OC 启动
-- 蓝牙（可连接AirPods）
+- 蓝牙（可连接AirPods等）
 - AppleHDA原生音频，包括耳机
 - 触控板 （全系支持全手势）
 - 内置键盘以及数字键盘 
@@ -41,17 +41,19 @@
 - 随航（有线/无线）
 - 电池状态
 - 内置摄像头
-- 4K 屏幕（[教程](https://github.com/xiaoMGitHub/LEGION_Y7000Series_Hackintosh/tree/master/4K_Display_Config)）
 - iMessage/FaceTime
 - 迁移助理
 - Mac App Store正常运行
-
+- HIDPI (https://github.com/xzhih/one-key-hidpi 一键工具 + RDM工具) 注: 分辨率选不好的话开关机会出现花屏现象。
 
 ## 不能正常使用的功能
-- HDMI ，因为HDMI 端口连接到已禁用的Nvidia卡
-- Airdrop，无线网卡硬件暂不支持。可更换白果卡BCM94360系列网卡
+- 外接显示器 ，因为HDMI 端口连接到已禁用的Nvidia卡。
+- Airdrop，无线网卡硬件暂不支持。可更换白果卡BCM94360系列网卡。
 - MAC系统更新。(暂不支持)
 
+# 更换硬件之后能够正常使用的功能
+- 更换无线网卡BCM94360Z3， Handoff、Airdrop、IWatch解锁均正常。
+- Thinkpad Pro dock 专业桌面扩展坞 型号40A70045CN, [黑苹果与m1外接显示器廉价方案](https://zhuanlan.zhihu.com/p/355895597) 外接显示器正常。
 
 
 ## 修复记录
