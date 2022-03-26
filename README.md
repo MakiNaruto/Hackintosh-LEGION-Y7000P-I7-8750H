@@ -27,9 +27,7 @@
 - 蓝牙（可连接AirPods等）
 - AppleHDA原生音频，包括耳机
 - 触控板 （全系支持全手势）
-- 内置键盘以及数字键盘 
-- 背光控制
-- 背光键盘
+- 内置键盘、数字键盘、功能键(音量、背光、触控板)
 - 原生USB3.0/USB2.0 
 - 原生电源管理
 - 核显驱动（独显已经 hotpatch 屏蔽）
@@ -43,13 +41,14 @@
 - 内置摄像头
 - iMessage/FaceTime
 - 迁移助理
-- Mac App Store正常运行
+- App Store
 - HIDPI (https://github.com/xzhih/one-key-hidpi 一键工具 + RDM工具) 注: 分辨率选不好的话开关机会出现花屏现象。
+- MAC系统更新
 
 ## 不能正常使用的功能
 - 外接显示器 ，因为HDMI 端口连接到已禁用的Nvidia卡。
-- Airdrop，无线网卡硬件暂不支持。可更换白果卡BCM94360系列网卡。
-- MAC系统更新。(暂不支持)
+- Airdrop，无线网卡硬件暂不支持。可更换白果卡BCM94360系列网卡。 
+- 注: 使用`RGB多彩背光键盘`容易在使用过程中，出现全部USB端口失灵现象。(关闭键盘RGB灯光即可)
 
 # 更换硬件之后能够正常使用的功能
 - 更换无线网卡BCM94360Z3， Handoff、Airdrop、IWatch解锁均正常。
